@@ -1,0 +1,29 @@
+<div class="store">
+  <h1>SOMA SIGNATURE</h1>
+
+  <h3>Turkey Wears</h3>
+  <h3>Luxury Wears</h3>
+  <h3>Luxury Hairs</h3>
+  <h3>Jewellery</h3>
+  <h3>Glasses</h3>
+  <h3>Perfumes</h3>
+
+  <p>Onitsha</p>
+  <p>Luxury • Style • Elegance</p>
+
+  <button onclick="ShopNow()">Shop Now</button>
+
+  <h2>Our Collections</h2>
+
+  <div class="products">
+
+    <div class="product">
+      <h3>Turkey Wears</h3>
+
+      <a href="https://wa.me/2348037708522?text=Hello%20Soma%20Signature%2C%20I%20want%20to%20order." target="_blank">
+        <button>Order Now</button>
+      </a>
+    </div>
+
+  </div>
+</div>
