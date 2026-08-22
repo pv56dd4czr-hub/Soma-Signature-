@@ -1,19 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SOMA SIGNATURE</title>
-  <link rel="stylesheet" href="Style.css">
 </head>
-
 <body>
 
   <h1>SOMA SIGNATURE</h1>
-
   <h2>Luxury • Style • Elegance</h2>
 
-  <p>Welcome to Soma Signature</p>
+  <p>Welcome to SOMA SIGNATURE</p>
 
   <h3>Turkey Wears</h3>
   <h3>Luxury Wears</h3>
@@ -22,26 +17,11 @@
   <h3>Glasses</h3>
   <h3>Perfumes</h3>
 
-  <button onclick="ShopNow()">Shop Now</button>
+  <p>Onitsha</p>
 
-  <h2>Our Collections</h2>
-
-  <div class="product">
-    <h3>Turkey Wears</h3>
-
-    <a href="https://wa.me/2348037708522?text=Hello%20Soma%20Signature%2C%20I%20want%20to%20order." target="_blank">
-      <button>Order Now</button>
-    </a>
-  </div>
-
-  <script>
-    function ShopNow() {
-      window.open(
-        "https://wa.me/2348037708522?text=Hello%20Soma%20Signature%2C%20I%20want%20to%20shop.",
-        "_blank"
-      );
-    }
-  </script>
+  <button onclick="alert('Welcome to SOMA SIGNATURE!')">
+    Shop Now
+  </button>
 
 </body>
 </html>
