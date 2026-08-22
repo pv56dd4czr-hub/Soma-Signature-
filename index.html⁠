@@ -3,8 +3,11 @@
 <head>
   <title>SOMA SIGNATURE</title>
 </head>
+
 <body>
+
 <div class="store">
+
   <h1>SOMA SIGNATURE</h1>
 
   <h3>Turkey Wears</h3>
@@ -29,9 +32,17 @@
       <a href="https://wa.me/2348037708522?text=Hello%20Soma%20Signature%2C%20I%20want%20to%20order." target="_blank">
         <button>Order Now</button>
       </a>
-    <</div>
+    </div>
 
-<div>
+  </div>
+
 </div>
+
+<script>
+function ShopNow() {
+  window.open("https://wa.me/2348037708522?text=Hello%20Soma%20Signature%2C%20I%20want%20to%20shop.", "_blank");
+}
+</script>
+
 </body>
 </html>
