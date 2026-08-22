@@ -27,3 +27,62 @@ Soma Signature — Luxury, Style &amp; Elegance
 
 </body>
 </html>
+body {
+  background: pink;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin-top: 100px;
+}
+
+h1 {
+  color: white;
+  font-size: 42px;
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+p {
+  color: white;
+  letter-spacing: 1px;
+}
+
+button {
+  background: #d98fa3;
+  color: white;
+  border: 2px solid #eee;
+  padding: 15px 25px;
+  border-radius: 12px;
+  margin: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.product {
+  margin: 20px auto;
+  padding: 20px;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  .product {
+    margin: 10px;
+    padding: 20px;
+  }
+
+  button {
+    width: 90%;
+  }
+}
