@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff7fa;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(135deg, #d81b60, #ad1457);
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+header h1 {
+  font-size: 42px;
+  margin: 0;
+  letter-spacing: 4px;
+}
+
+header p {
+  font-size: 18px;
+  margin-top: 12px;
+}
+
+.welcome {
+  text-align: center;
+  padding: 45px 20px 25px;
+}
+
+.welcome h2 {
+  color: #c2185b;
+  font-size: 30px;
+}
+
+.welcome p {
+  font-size: 16px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding: 30px 20px 50px;
+}
+
+.product {
+  background: white;
+  width: 260px;
+  padding: 30px 20px;
+  text-align: center;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.product:hover {
+  transform: translateY(-8px);
+}
+
+.product h3 {
+  color: #c2185b;
+  font-size: 22px;
+}
+
+.product p {
+  color: #666;
+  line-height: 1.6;
+}
+
+button {
+  background: #d81b60;
+  color: white;
+  border: none;
+  padding: 13px 28px;
+  border-radius: 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ad1457;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 25px 15px;
+}
