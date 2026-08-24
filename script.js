@@ -1,3 +1,4 @@
+alert("SOMA SIGNATURE JavaScript is working!");
 const buttons = document.querySelectorAll(".product button");
 
 buttons.forEach(function(button) {
